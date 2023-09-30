@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 <body>
     <header>
@@ -16,33 +20,45 @@
             <h2>Search for a City:</h2>
             <form action="">
                 <input type="text" id="city"><br><br>
-                <input type="submit" value="Search">
+                <button type="button" id="search-button">Search</button>
             </form>
         </div>
 
         <div class="right-column">
             <div class="row1">
-                <h2 class="city"></h2>
-                <p>Temp:</p>
-                <p>Wind:</p>
-                <p>Humidity</p>
+                <h2 class="city">Atlanta (9/13/2023)</h2>
+                <p>Temp: 76.62 F</p>
+                <p>Wind: 8.43 MPH</p>
+                <p>Humidity: 63%</p>
             </div>
-
+            <h3>5-Day Forecast:</h3>
             <div class="row2">
-                <div class="column">
-
+                <div class="card">
+                    <p>9/14/2023</p>
+                    <p>Icon here</p>
+                    <p>Temp: 63 F</p>
+                    <p>Wind: 3.94 MPH</p>
+                    <p>Humidity: 63%</p>
                 </div>
-                <div class="column">
-
+                <div class="card">
+                    <p>Temp:</p>
+                    <p>Wind:</p>
+                    <p>Humidity</p>
                 </div>
-                <div class="column">
-
+                <div class="card">
+                    <p>Temp:</p>
+                    <p>Wind:</p>
+                    <p>Humidity</p>
                 </div>
-                <div class="column">
-
+                <div class="card">
+                    <p>Temp:</p>
+                    <p>Wind:</p>
+                    <p>Humidity</p>
                 </div>
-                <div class="column">
-
+                <div class="card">
+                    <p>Temp:</p>
+                    <p>Wind:</p>
+                    <p>Humidity</p>
                 </div>
             </div>
         </div>
