@@ -19,43 +19,47 @@
         <div class="left-column">
             <h2>Search for a City:</h2>
             <form action="">
-                <input type="text" id="city"><br><br>
+                <input type="text" id="city" placeholder="enter city name"><br><br>
                 <button type="button" id="search-button">Search</button>
             </form>
         </div>
 
         <div class="right-column">
             <div class="row1">
-                <h2 class="city">Atlanta (9/13/2023)</h2>
-                <p>Temp: 76.62 F</p>
-                <p>Wind: 8.43 MPH</p>
-                <p>Humidity: 63%</p>
+                <h2 id="cityDisplay"></h2>
+                <p id="tempCurrent">Temp: </p>
+                <p id="windCurrent">Wind: </p>
+                <p id="humidityCurrent">Humidity: </p>
             </div>
             <h3>5-Day Forecast:</h3>
             <div class="row2">
                 <div class="card">
-                    <p>9/14/2023</p>
+                    <p class="date">9/14/2023</p>
                     <p>Icon here</p>
                     <p>Temp: 63 F</p>
                     <p>Wind: 3.94 MPH</p>
                     <p>Humidity: 63%</p>
                 </div>
                 <div class="card">
+                    <p class="date"></p>
                     <p>Temp:</p>
                     <p>Wind:</p>
                     <p>Humidity</p>
                 </div>
                 <div class="card">
+                    <p class="date"></p>
                     <p>Temp:</p>
                     <p>Wind:</p>
                     <p>Humidity</p>
                 </div>
                 <div class="card">
+                    <p class="date"></p>
                     <p>Temp:</p>
                     <p>Wind:</p>
                     <p>Humidity</p>
                 </div>
                 <div class="card">
+                    <p class="date"></p>
                     <p>Temp:</p>
                     <p>Wind:</p>
                     <p>Humidity</p>
@@ -63,5 +67,6 @@
             </div>
         </div>
     </div>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>

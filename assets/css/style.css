@@ -21,10 +21,23 @@ header {
     letter-spacing: 1px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px #b0b0b0;
+}
+
+#search-button:hover {
+    background-color: rgb(65, 160, 249);
+}
+
+#search-button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
 }
 
 input {
     width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgb(98, 179, 255);
     height: 2rem;
 }
 
