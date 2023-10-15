@@ -8,6 +8,8 @@ A weather dashboard that allows you to search for a city and displays a five day
 
 https://itspablooo.github.io/weather-dashboard/
 
+![Screenshot of weather dashboard](./assets/images/weather-dashboard.png)
+
 ## Technology Used 
 
 * HTML/CSS
